@@ -37,13 +37,16 @@ main {
   border-radius: 0.5rem;
 }
 .list-pokemons .pokemon .name {
-  color: white;
+  color: #2a2d34;
   font-size: 1.5rem;
+  text-transform: capitalize;
 }
 .list-pokemons .pokemon .number {
   color: black;
-  opacity: 0.16;
+  opacity: 0.2;
   align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 .list-pokemons .pokemon li {
   list-style: none;
@@ -55,7 +58,7 @@ main {
 }
 .list-pokemons .pokemon img {
   max-width: 100%;
-  height: 80px;
+  height: 60px;
   object-fit: contain;
 }
 .list-pokemons .pokemon .details-types {
@@ -70,12 +73,29 @@ main {
 }
 .list-pokemons .pokemon .list-types .item-type {
   font-size: 1rem;
+  color: #2a2d34;
+  font-weight: 400;
 }
 .list-pokemons .pokemon .list-types li {
   padding: 0.3rem 0.6rem;
   font-size: 0.5rem;
   text-align: center;
-  background-color: #64E0C8;
+  background-color: white;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.pagination button {
+  border: none;
+  padding: 1rem;
+  background-color: #52489C;
+  color: white;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
 }
 
 @media screen and (max-width: 320px) {
@@ -125,7 +145,7 @@ main {
     font-size: 1rem;
   }
   .list-pokemons .pokemon img {
-    height: 120px;
+    height: 100px;
   }
 }
 @media (min-width: 600px) {
@@ -138,6 +158,9 @@ main {
   .list-pokemons ol {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .list-pokemons img {
+    height: 60px;
   }
   main {
     max-width: 1200px;
