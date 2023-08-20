@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter";
+}
+
+main {
+  margin: 1rem;
+}
+
+.list-pokemons .pokemons {
+  display: flex;
+  flex-direction: row;
+}
+.list-pokemons .pokemons .types {
+  display: flex;
+  flex-direction: column;
+}
+.list-pokemons .pokemons .list-types {
+  display: flex;
+  flex-direction: row;
+}
+.list-pokemons .pokemons li {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.6rem;
+  text-align: center;
+  background-color: #64E0C8;
+}
+.list-pokemons ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.list-pokemons ol img {
+  max-width: 100%;
+  height: 60px;
+  object-fit: contain;
+}
+.list-pokemons li {
+  list-style: none;
+  padding: 1rem;
+  margin: 0.2rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 700;
+}
+.list-pokemons #firstColor {
+  background-color: #48D0B0;
+}
+.list-pokemons #secondColor {
+  background-color: #FB6C6C;
+}
+
+/*# sourceMappingURL=styles.css.map */

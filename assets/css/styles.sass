@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap')
+
+$global-font: 'Inter'
+$firstColor: #48D0B0
+$secondColor: #FB6C6C
+
+*
+        margin: 0
+        padding: 0
+        list-style: none
+        box-sizing: border-box
+
+
+body
+        font-family: $global-font
+main
+         margin: 1rem
+
+.list-pokemons
+        .pokemons
+                display: flex
+                flex-direction: row
+                .types
+                        display: flex
+                        flex-direction: column
+                .list-types
+                        display: flex
+                        flex-direction: row
+                li
+
+                        padding: .3rem .6rem
+                        font-size: .6rem
+                        text-align: center
+                        background-color: #64E0C8
+
+        ol
+                display: grid
+                grid-template-columns: 1fr 1fr
+
+                img
+                        max-width: 100%
+                        height: 60px
+                        object-fit: contain
+
+        li
+                list-style: none
+                padding: 1rem
+                margin: .2rem
+                border-radius: .5rem
+                color: white
+                font-weight: 700
+
+
+
+
+        #firstColor
+                background-color: $firstColor
+        #secondColor
+                background-color: $secondColor
