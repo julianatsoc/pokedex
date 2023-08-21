@@ -13,14 +13,6 @@ body {
   background-color: #f3f3f3;
 }
 
-#firstColor {
-  background-color: #48D0B0;
-}
-
-#secondColor {
-  background-color: #FB6C6C;
-}
-
 main {
   padding: 1rem;
   border-radius: 1.5rem;
@@ -73,14 +65,14 @@ main {
 }
 .list-pokemons .pokemon .list-types .item-type {
   font-size: 1rem;
-  color: #2a2d34;
+  color: white;
   font-weight: 400;
 }
 .list-pokemons .pokemon .list-types li {
   padding: 0.3rem 0.6rem;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
   text-align: center;
-  background-color: white;
+  font-weight: 600;
 }
 
 .pagination {
@@ -96,6 +88,74 @@ main {
   color: white;
   border-radius: 0.5rem;
   margin-top: 2rem;
+}
+
+.normal {
+  background-color: rgba(168, 167, 122, 0.55);
+}
+
+.fire {
+  background-color: rgba(238, 129, 48, 0.55);
+}
+
+.water {
+  background-color: rgba(99, 144, 240, 0.55);
+}
+
+.electric {
+  background-color: rgba(247, 208, 44, 0.55);
+}
+
+.grass {
+  background-color: rgba(122, 199, 76, 0.55);
+}
+
+.fighting {
+  background-color: rgba(194, 46, 40, 0.55);
+}
+
+.poison {
+  background-color: rgba(163, 62, 161, 0.55);
+}
+
+.ground {
+  background-color: rgba(226, 191, 101, 0.55);
+}
+
+.flying {
+  background-color: rgba(169, 143, 243, 0.55);
+}
+
+.psychic {
+  background-color: rgba(249, 85, 135, 0.55);
+}
+
+.bug {
+  background-color: rgba(166, 185, 26, 0.55);
+}
+
+.rock {
+  background-color: rgba(182, 161, 54, 0.55);
+}
+
+.ghost {
+  background-color: rgba(115, 87, 151, 0.55);
+}
+
+.dragon {
+  background-color: rgba(111, 53, 252, 0.55);
+}
+
+.dark {
+  background-color: rgba(112, 87, 70, 0.55);
+}
+
+.steel {
+  background-color: rgba(183, 183, 206, 0.55);
+}
+
+.fairy {
+  background-color: rgba(214, 133, 173, 0.55);
 }
 
 @media screen and (max-width: 320px) {
